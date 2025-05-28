@@ -17,5 +17,9 @@ $on_mod(Loaded) {
 	// ret
 	patch.push_back(0xc3);
 
-	geode::Mod::get()->patch((void*)start, patch);
+	auto res = geode::Mod::get()->patch((void*)start, patch);
+
+	if (res.isErr()) {
+		geode::log::warn("Failed to patch libpng!");
+	}
 }
