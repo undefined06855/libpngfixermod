@@ -1,4 +1,3 @@
-
 /*
  * 0x3c00 seems to be a "verify srgb profile" function, and references three
  * strings relating to srgb, including our known incorrect srgb profile string,
