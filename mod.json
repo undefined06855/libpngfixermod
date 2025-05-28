@@ -11,11 +11,11 @@
 	"id": "undefined0.libpng_i_literally_do_not_care",
 	"name": "libpng i literally do not care",
 	"developer": "undefined0",
-	"description": "",
-	"tags": [],
+	"description": "removes the incorrect srgb profile warning",
+	"tags": [ "paid" ],
 	"early-load": true,
 
 	"links": {
-		"source": "https://github.com/undefined06855/libpng-fixer-mod"
+		"source": "https://github.com/undefined06855/libpngfixermod"
 	}
 }
